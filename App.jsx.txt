@@ -70,3 +70,5 @@ const styles = {
 };
 
 export default App;
+
+added backend URL
