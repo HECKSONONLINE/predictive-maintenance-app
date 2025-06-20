@@ -14,7 +14,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('https://your-backend-url.onrender.com/predict', {
+      const response = await axios.post('https://predictive-maintenance-backend.onrender.com', {
         features: features.map(Number)
       });
       setResult("Prediction: " + response.data.prediction);
